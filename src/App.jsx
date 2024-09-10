@@ -14,7 +14,7 @@ const DEFAULT_COLOR_CONFIG = {
 };
 
 function App() {
-	const [colors, setColors] = useState(["#fff", "#fefefe", "#000"]);
+	const [colors, setColors] = useState(["#fff", "#818181", "#000"]);
 
 	useEffect(() => {
 		const fetchColors = async () => {
